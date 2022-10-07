@@ -1,6 +1,6 @@
 /* Body */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -30,16 +30,16 @@ a {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
-.header-all {
+/* .header-all {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Header */
 
-.logo {
+/* .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,9 +50,9 @@ a {
 
 .logo span {
   color: var(--logo-color-span);
-}
+} */
 
-.header__link {
+/* .header__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -132,11 +132,11 @@ a {
 
 .header-page--border {
   border-bottom: 1px solid var(--color-line-header);
-}
+} */
 
 /* main */
 
-.hero-section {
+/* .hero-section {
   background: var(--bgd-color-footer);
   padding: 200px 0;
   text-align: center;
@@ -179,10 +179,10 @@ a {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-}
+} */
 
 /* section detail */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -231,10 +231,10 @@ a {
   margin-bottom: 0px;
   color: var(--primary-color-text);
   font-size: 14px;
-}
+} */
 
 /* section work */
-.work-section {
+/* .work-section {
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -272,10 +272,10 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
-}
+} */
 
 /* section team */
-.team-section {
+/* .team-section {
   background-color: var(--setion-bgd-team);
 }
 
@@ -319,10 +319,10 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-}
+} */
 
 /* Section client */
-.client__list {
+/* .client__list {
   display: flex;
 }
 
@@ -354,10 +354,10 @@ a {
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Team-social */
-.social {
+/* .social {
   display: flex;
   justify-content: space-between;
   margin: 16px 32px 30px;
@@ -389,10 +389,10 @@ a {
   fill: var(--color-border-client);
   width: 20px;
   height: 20px;
-}
+} */
 
 /* portfolio */
-.btn-nav {
+/* .btn-nav {
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 6px 22px;
@@ -505,10 +505,10 @@ a {
 
 .portfolio-nav {
   margin-bottom: 50px;
-}
+} */
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: var(--bgd-color-footer);
   padding-bottom: 60px;
   padding-top: 60px;
@@ -527,9 +527,9 @@ span.studio,
 .footer-adress {
   display: flex;
   align-items: baseline;
-}
+} */
 
-/* Footer-social */
+/* Footer-social
 .footer__social {
   margin-left: 70px;
   width: 206px;
@@ -553,7 +553,7 @@ span.studio,
 }
 
 /* Footer title */
-.footer__title {
+/* .footer__title {
   margin: 0;
   margin-bottom: 20px;
   font-weight: 700;
@@ -561,20 +561,20 @@ span.studio,
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--bgd-color);
-}
+} */
 
 /* Footer address */
-.adress {
+/* .adress {
   font-style: normal;
 }
 
 .adress__text {
   margin-bottom: 9px;
   margin-top: 0;
-}
+} */
 
 /* Footer nav */
-.footter-auth-link,
+/* .footter-auth-link,
 .footer {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -591,10 +591,11 @@ span.studio,
 
 .nav-item {
   margin-bottom: 9px;
-}
+} */
+
 
 /* Footer Form */
-.footer__form {
+/* .footer__form {
   min-width: 570px;
   margin-left: auto;
 }
@@ -658,10 +659,10 @@ span.studio,
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
+} */
 
 /* Modal */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -849,4 +850,4 @@ textarea::placeholder {
 .modal__btn:hover .icon__clos,
 .modal__btn:hover .icon__clos {
   fill: var(--accent-color);
-}
+} */
