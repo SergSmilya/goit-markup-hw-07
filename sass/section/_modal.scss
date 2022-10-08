@@ -138,15 +138,16 @@ textarea::placeholder {
     border-radius: 2px;
     margin-right: 8px;
     transition: 250ms var(--timing-funcion);
+
+    &:checked {
+        background-image: url(../../images/icon-check.svg);
+        border-color: var(--accent-color);
+        background-size: contain;
+        background-origin: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
 }
 
-.check:checked {
-    background-image: url(../../images/icon-check.svg);
-    border-color: var(--accent-color);
-    background-size: contain;
-    background-origin: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .check:checked+span {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
